@@ -15,9 +15,9 @@ SEARCH_URL = "https://www.searchapi.io/api/v1/search"
 # 2. 設定 SearchApi.io 查詢參數 (指定 2027/8/2 ~ 2027/8/3 JR新潟站)
 params = {
     "engine": "google_hotels",
-    "q": "JR Niigata Station hotels",
-    "check_in_date": "2027-08-02",
-    "check_out_date": "2027-08-03",
+    "q": "新潟站 飯店",
+    "check_in_date": "2026-12-05",
+    "check_out_date": "2026-12-09",
     "adults": "2",
     "currency": "JPY",
     "gl": "jp",
