@@ -6,8 +6,8 @@ from email.mime.text import MIMEText
 import requests
 
 # 1. 設定日期變數 (優先讀取環境變數，若無則使用預設值)
-CHECK_IN_DATE = os.environ.get("CHECK_IN_DATE", "2026-09-22")
-CHECK_OUT_DATE = os.environ.get("CHECK_OUT_DATE", "2026-09-24")
+CHECK_IN_DATE = os.environ.get("CHECK_IN_DATE", "2027-08-02")
+CHECK_OUT_DATE = os.environ.get("CHECK_OUT_DATE", "2027-08-03")
 
 # 2. 自動計算入住天數 (晚數)
 d1 = datetime.strptime(CHECK_IN_DATE, "%Y-%m-%d")
