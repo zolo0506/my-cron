@@ -2,8 +2,8 @@ name: Daily Niigata Hotel Monitor
 
 on:
   schedule:
-    # 每天 UTC 01:00 執行 (等於台灣時間 AM 09:00)
-    - cron: '0 1 * * *'
+    # 每天 UTC 01:17 執行 (等於台灣時間 AM 09:17)
+    - cron: '17 1 * * *'
   workflow_dispatch: # 支援手動觸發測試
 
 jobs:
